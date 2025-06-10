@@ -1,4 +1,6 @@
 import pandas as pd
+import requests
+import time
 
 # Read the text file
 with open('G-loop.txt', 'r') as file:
@@ -15,11 +17,12 @@ for i in range(0, len(lines), 2):
 # Convert to DataFrame
 df = pd.DataFrame(entries)
 
+raw_df = pd.read_csv('rawdata.csv')
+UniProtIDs = raw_df['UniProtID'].tolist()
+
+df['UniProtID'] = UniProtIDs
+
 # Save to CSV
 df.to_csv('degrons.csv', index=False)
 
-df_proteins = df[['Protein']]
-df_proteins.to_csv('UniProtIDProteins', index=False)
 
-df_degrons = df[['Degron']]
-df_degrons.to_csv('UniProtIDDegrons', index=False)
