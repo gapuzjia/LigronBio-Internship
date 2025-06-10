@@ -1,0 +1,22 @@
+Query,UniProt_ID,Entry_Name,Protein_Name,Gene_Names,Organism
+P15170,P15170,ERF3A_HUMAN,Eukaryotic peptide chain release factor GTP-binding subunit ERF3A (Eukaryotic peptide chain release factor subunit 3a) (eRF3a) (EC 3.6.5.-) (G1 to S phase transition protein 1 homolog),GSPT1 ERF3A,Homo sapiens (Human)
+Q9UKT9,Q9UKT9,IKZF3_HUMAN,Zinc finger protein Aiolos (Ikaros family zinc finger protein 3),IKZF3 ZNFN1A3,Homo sapiens (Human)
+Q96JP5,Q96JP5,ZFP91_HUMAN,E3 ubiquitin-protein ligase ZFP91 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase ZFP91) (Zinc finger protein 757) (Zinc finger protein 91 homolog) (Zfp-91),ZFP91 ZNF757 FKSG11,Homo sapiens (Human)
+Q8N554,Q8N554,ZN276_HUMAN,Zinc finger protein 276 (Zfp-276) (Zinc finger protein 477),ZNF276 CENP-Z ZFP276 ZNF477,Homo sapiens (Human)
+Q6ZMY9,Q6ZMY9,ZN517_HUMAN,Zinc finger protein 517,ZNF517,Homo sapiens (Human)
+Q96NG8,Q96NG8,ZN582_HUMAN,Zinc finger protein 582,ZNF582,Homo sapiens (Human)
+Q96CK0,Q96CK0,ZN653_HUMAN,Zinc finger protein 653 (67 kDa zinc finger protein) (Zinc finger protein Zip67),ZNF653 ZIP67,Homo sapiens (Human)
+Q9BU19,Q9BU19,ZN692_HUMAN,Zinc finger protein 692 (AICAR responsive element binding protein),ZNF692 AREBP ZFP692,Homo sapiens (Human)
+Q6DD87,Q6DD87,ZN787_HUMAN,Zinc finger protein 787 (TTF-I-interacting peptide 20),ZNF787,Homo sapiens (Human)
+Q17R98,Q17R98,ZN827_HUMAN,Zinc finger protein 827,ZNF827,Homo sapiens (Human)
+Q6ZI17,Q6ZI17,,,,
+P17010,P17010,ZFX_HUMAN,Zinc finger X-chromosomal protein,ZFX,Homo sapiens (Human)
+Q6EUW2,Q6EUW2,,,,
+Q3T160,Q3T160,,,,
+Q4WHT9,Q4WHT9,,,,
+Q6PF39,Q6PF39,,,,
+P38271,P38271,,,,
+P30281,P30281,CCND3_HUMAN,G1/S-specific cyclin-D3,CCND3,Homo sapiens (Human)
+A7E3S4,A7E3S4,,,,
+Q29537,Q29537,,,,
+O15178,O15178,TBXT_HUMAN,T-box transcription factor T (Brachyury protein) (Protein T),TBXT T,Homo sapiens (Human)
