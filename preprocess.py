@@ -19,4 +19,7 @@ df = pd.DataFrame(entries)
 df.to_csv('degrons.csv', index=False)
 
 df_proteins = df[['Protein']]
-df.to_csv('UniProtID Degrons', index=False)
+df_proteins.to_csv('UniProtIDProteins', index=False)
+
+df_degrons = df[['Degron']]
+df_degrons.to_csv('UniProtIDDegrons', index=False)
