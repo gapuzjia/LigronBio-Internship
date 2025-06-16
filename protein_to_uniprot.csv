@@ -1,6 +1,11 @@
 Query,UniProt_ID,Entry_Name,Protein_Name,Gene_Names,Organism
 P15170,P15170,ERF3A_HUMAN,Eukaryotic peptide chain release factor GTP-binding subunit ERF3A (Eukaryotic peptide chain release factor subunit 3a) (eRF3a) (EC 3.6.5.-) (G1 to S phase transition protein 1 homolog),GSPT1 ERF3A,Homo sapiens (Human)
+Q13422,Q13422,IKZF1_HUMAN,DNA-binding protein Ikaros (Ikaros family zinc finger protein 1) (Lymphoid transcription factor LyF-1),IKZF1 IK1 IKAROS LYF1 ZNFN1A1,Homo sapiens (Human)
 Q9UKT9,Q9UKT9,IKZF3_HUMAN,Zinc finger protein Aiolos (Ikaros family zinc finger protein 3),IKZF3 ZNFN1A3,Homo sapiens (Human)
+Q9UJQ4,Q9UJQ4,SALL4_HUMAN,Sal-like protein 4 (Zinc finger protein 797) (Zinc finger protein SALL4),SALL4 ZNF797,Homo sapiens (Human)
+Q9UJQ4,Q9UJQ4,SALL4_HUMAN,Sal-like protein 4 (Zinc finger protein 797) (Zinc finger protein SALL4),SALL4 ZNF797,Homo sapiens (Human)
+Q05516,Q05516,ZBT16_HUMAN,Zinc finger and BTB domain-containing protein 16 (Promyelocytic leukemia zinc finger protein) (Zinc finger protein 145) (Zinc finger protein PLZF),ZBTB16 PLZF ZNF145,Homo sapiens (Human)
+Q05516,Q05516,ZBT16_HUMAN,Zinc finger and BTB domain-containing protein 16 (Promyelocytic leukemia zinc finger protein) (Zinc finger protein 145) (Zinc finger protein PLZF),ZBTB16 PLZF ZNF145,Homo sapiens (Human)
 Q96JP5,Q96JP5,ZFP91_HUMAN,E3 ubiquitin-protein ligase ZFP91 (EC 2.3.2.27) (RING-type E3 ubiquitin transferase ZFP91) (Zinc finger protein 757) (Zinc finger protein 91 homolog) (Zfp-91),ZFP91 ZNF757 FKSG11,Homo sapiens (Human)
 Q8N554,Q8N554,ZN276_HUMAN,Zinc finger protein 276 (Zfp-276) (Zinc finger protein 477),ZNF276 CENP-Z ZFP276 ZNF477,Homo sapiens (Human)
 Q6ZMY9,Q6ZMY9,ZN517_HUMAN,Zinc finger protein 517,ZNF517,Homo sapiens (Human)
@@ -10,7 +15,9 @@ Q9BU19,Q9BU19,ZN692_HUMAN,Zinc finger protein 692 (AICAR responsive element bind
 Q6DD87,Q6DD87,ZN787_HUMAN,Zinc finger protein 787 (TTF-I-interacting peptide 20),ZNF787,Homo sapiens (Human)
 Q17R98,Q17R98,ZN827_HUMAN,Zinc finger protein 827,ZNF827,Homo sapiens (Human)
 Q6ZI17,Q6ZI17,,,,
+P75797,P75797,,,,
 P17010,P17010,ZFX_HUMAN,Zinc finger X-chromosomal protein,ZFX,Homo sapiens (Human)
+Q9UBQ0,Q9UBQ0,VPS29_HUMAN,Vacuolar protein sorting-associated protein 29 (hVPS29) (PEP11 homolog) (Vesicle protein sorting 29),VPS29 DC15 DC7 MDS007,Homo sapiens (Human)
 Q6EUW2,Q6EUW2,,,,
 Q3T160,Q3T160,,,,
 Q4WHT9,Q4WHT9,,,,
