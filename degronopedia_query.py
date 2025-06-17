@@ -8,11 +8,11 @@ df = pd.read_csv('degrons.csv')
 # Ensure UniProtID is treated as string
 df['UniProtID'] = df['UniProtID'].astype(str)
 
-# Get non-empty UniProt IDs
+#Get non-empty UniProt IDs
 proteins = df['UniProtID'].dropna()
 proteins = [p for p in proteins if p.strip() != '' and p != 'nan']
 
-# API endpoint
+#API endpoint
 base_url = "https://rest.uniprot.org/uniprotkb/search"
 
 results = []
@@ -59,8 +59,8 @@ for protein in proteins:
             'Organism': None
         })
 
-# Save to CSV
+#Save to CSV
 df_results = pd.DataFrame(results)
 df_results.to_csv('protein_to_uniprot.csv', index=False)
 
-print("✅ Saved UniProt ID metadata to protein_to_uniprot.csv")
+print("Saved UniProt ID metadata to protein_to_uniprot.csv")
