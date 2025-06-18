@@ -3,10 +3,9 @@ from Bio.Blast import NCBIWWW, NCBIXML
 from Bio import Entrez, SeqIO
 import time
 
-# Set your email for NCBI access (required)
-Entrez.email = "your_email@example.com"  # Replace with your real email
+Entrez.email = "jiannagapuz@gmail.com"
 
-# Load degrons
+#load degrons
 df = pd.read_csv('degrons.csv')
 df['Degron'] = df['Degron'].astype(str).str.strip()
 degrons = [d for d in df['Degron'].unique() if d and d.lower() != 'nan']
@@ -14,23 +13,23 @@ degrons = [d for d in df['Degron'].unique() if d and d.lower() != 'nan']
 results = []
 
 for i, degron in enumerate(degrons):
-    print(f"🔍 {i+1}/{len(degrons)} | BLASTing: {degron}")
+    print(f"{i+1}/{len(degrons)} | BLASTing: {degron}")
 
-    # Wrap the full block in try-except
+    #wrap block in try-except
     try:
-        # Step 1: Run BLASTP
+        #run BLASTP
         blast_result = NCBIWWW.qblast("blastp", "nr", degron, format_type="XML", hitlist_size=1)
         blast_record = NCBIXML.read(blast_result)
 
         if blast_record.alignments:
             alignment = blast_record.alignments[0]
-            accession = alignment.accession  # safer than trying to find "gi|"
+            accession = alignment.accession
 
-            # Step 2: Fetch full protein GenBank record
+            #fetch full protein GenBank record
             handle = Entrez.efetch(db="protein", id=accession, rettype="gb", retmode="text")
             record = SeqIO.read(handle, "genbank")
 
-            # Step 3: Store data
+            #store data
             results.append({
                 "Degron": degron,
                 "Matched_Protein_ID": record.id,
@@ -56,10 +55,10 @@ for i, degron in enumerate(degrons):
             "Full_Sequence": None
         })
 
-    # Delay to avoid NCBI rate-limiting
+    #NCBI rate limits
     time.sleep(15)
 
-# Save results
+#save into file
 output_df = pd.DataFrame(results)
 output_df.to_csv('degron_blast_origin_results.csv', index=False)
-print("✅ Results saved to degron_blast_origin_results.csv")
+print("Results saved to degron_blast_origin_results.csv")
