@@ -3,7 +3,7 @@ import time
 import pandas as pd
 
 # Load KEGG gene list from the .txt file
-with open("KEGG genes\kegg_hsa05340_genes.txt", "r") as f:
+with open("kegg_genes_compiled.txt", "r") as f:
     lines = f.readlines()
 
 # Extract gene IDs like hsa:351
@@ -28,5 +28,5 @@ for i, gene_id in enumerate(gene_ids):
 
 # Save to CSV
 df = pd.DataFrame(results)
-df.to_csv("kegg_hsa05340_proteins.csv", index=False)
-print("✅ Done! Saved to kegg_hsa05340_proteins.csv")
+df.to_csv("kegg_genes_proteins.csv", index=False)
+print("Done! Saved to kegg_genes_proteins.csv")
