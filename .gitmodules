@@ -1,0 +1,3 @@
+[submodule "degpred"]
+	path = degpred
+	url = https://github.com/CHAOHOU-97/degpred.git
