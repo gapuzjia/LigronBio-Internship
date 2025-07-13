@@ -11,7 +11,7 @@ gene_ids = [line.strip().split('\t')[1] for line in lines]
 
 results = []
 
-# Fetch amino acid sequence for each gene
+#Fetch amino acid sequence for each gene
 for i, gene_id in enumerate(gene_ids):
     print(f"[{i+1}/{len(gene_ids)}] Fetching {gene_id}...")
     url = f"http://rest.kegg.jp/get/{gene_id}/aaseq"
@@ -26,7 +26,7 @@ for i, gene_id in enumerate(gene_ids):
 
     time.sleep(1)
 
-# Save to CSV
+#Save to CSV
 df = pd.DataFrame(results)
 df.to_csv("kegg_genes_proteins.csv", index=False)
 print("Done! Saved to kegg_genes_proteins.csv")
