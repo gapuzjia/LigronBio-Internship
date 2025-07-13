@@ -1,0 +1,29 @@
+ELMIdentifier,Motif,Regex
+DEG_APCC_DBOX_1,APC D box,.R..L..[LIVM].
+DEG_APCC_KENBOX_2,APC KEN box,.KEN.
+DEG_APCC_TPR_1,APC TPR motif,.[ILM]R$
+DEG_COP1_1,COP1 motif,"[STDE]{1,3}.{0,2}[TSDE].{2,3}VP[STDE]G{0,1}[FLIMVYPA]"
+DEG_CRL4_CDT2_1,PIP motif of DTL,"[NQ]{0,1}..[ILMV][ST][DEN][FY][FY].{2,3}[KR]{2,3}[^DE]"
+DEG_CRL4_CDT2_2,PIP 2nd motif of DTL,"[NQ]{0,1}..[ILMV]T[DEN][HMFY][FMY].{2,3}[KR]{2,3}[^DE]"
+DEG_Kelch_actinfilin_1,KLHL17 motif,[AP]P[MV][IM]V
+DEG_Kelch_Keap1_1,KEAP1 motif 1,[DNS].[DES][TNS]GE
+DEG_Kelch_Keap1_2,KEAP1 motif 2,QD.DLGV
+DEG_Kelch_KLHL3_1,KLHL3/KLH2 motif,E.EE.E[AV]DQH
+DEG_MDM2_SWIB_1,MDM2 motif,"F[^P]{3}W[^P]{2,3}[VIL]"
+DEG_ODPH_VHL_1,VHL motif,"[IL]A(P).{6,8}[FLIVM].[FLIVM]"
+DEG_SCF_COI1_1,SCF-LRR-degron,..[RK][RK].SL..F[FLM].[RK]R[HRK].[RK].
+DEG_SCF_FBW7_1,FBXW7 motif 1,"[LIVMP].{0,2}(T)P..([ST])"
+DEG_SCF_FBW7_2,FBXW7 motif 2,"[LIVMP].{0,2}(T)P..E"
+DEG_SCF_SKP2-CKS1_1,SKP2 Fbox motif,..[DE].(T)P.K
+DEG_SCF_TIR1_1,SCF-TIR1-degron,.[VLIA][VLI]GWPP[VLI]...R.
+DEG_SCF_TRCP1_1,BTRCP motif,"D(S)G.{2,3}([ST])"
+DEG_SIAH_1,SIAH motif,.P.A.V.P[^P]
+DEG_SPOP_SBC_1,SPOP motif,[AVP].[ST][ST][ST]
+LIG_APCC_ABBA_1,APC ABBA motif,[ILVMF].[ILMVP][FHY].[DE]
+LIG_APCC_ABBAyCdc20_2,APC ABBA/Cdc20,[KR]..[ILVM][FHY].[DE]
+CBL_PTK,CBL (PTK motif),"[DN].{1,5}Y[ST]..P"
+CBL_MET,CBL (MET motif),DYR
+CBL_APS,CBL (APS motif),RA[VI].NQY[ST]
+ITCH,ITCH motif,PP.Y
+SCF_FBXO31,FBX031 motif,PTDV[A-Z]{2}[VI][A-Z]{1}[IL]$
+SCF_FBXL2,FBXL2 motif,"[IL]{1}Q[A-Z]{0,3}RG[A-Z]{0,3}R"
