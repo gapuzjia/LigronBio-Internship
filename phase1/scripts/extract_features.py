@@ -1,5 +1,3 @@
-# scripts/2_extract_features.py
-
 from Bio import SeqIO
 import pandas as pd
 from collections import Counter
@@ -19,6 +17,7 @@ def compute_aa_composition(seq):
     total = len(seq)
     return {f'AA_{aa}': aa_counts.get(aa, 0) / total for aa in AMINO_ACIDS}
 
+#set limit to 1000 to limit for this machine, can increase
 def extract_features_from_fasta(fasta_path, k=3, limit=1000):
     feature_list = []
     records = SeqIO.parse(fasta_path, "fasta")

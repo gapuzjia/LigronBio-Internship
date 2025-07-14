@@ -1,5 +1,3 @@
-# scripts/4_merge_features.py
-
 import pandas as pd
 
 def load_mutation_data(mutation_file, degfi_file):

@@ -1,4 +1,3 @@
-# scripts/1_parse_sources.py
 import pandas as pd
 
 def parse_predicted():
