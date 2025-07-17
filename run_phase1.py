@@ -12,6 +12,7 @@ steps = [
     ("Extracting sequence features...", "extract_features.py"),
     ("Labeling proteins...", "label_dataset.py"),
     ("Merging mutation-related features...", "merge_features.py"),
+    ("Generating sequence logos...", "generate_sequence_logos.py")
 ]
 
 for i, (message, script) in enumerate(steps, 1):
