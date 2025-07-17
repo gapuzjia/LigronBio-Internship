@@ -1,5 +1,3 @@
-# scripts/3_label_dataset.py
-
 import pandas as pd
 
 def label_proteins(sequence_feature_file, known_degrons_file):
